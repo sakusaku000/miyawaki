@@ -9,5 +9,14 @@ html, body {
 
 /* heading styling */
 h1 {
-    @apply text-5xl lg:text-6xl xl:text-8xl font-black text-saku-primary-100 select-none;
+    @apply text-4xl lg:text-6xl xl:text-8xl font-black text-saku-primary-100 select-none;
+}
+
+h2 {
+    @apply text-2xl font-bold mb-2;
+}
+
+/* paragraph styling */
+p {
+    @apply mb-1
 }

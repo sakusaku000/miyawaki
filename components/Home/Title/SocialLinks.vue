@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center gap-6">
         <a href="https://twitter.com/SakuKawaa" target="_blank" class="social-link">
-            <BrandTwitter class="w-8"/>
+            <BrandTwitter/>
         </a>
         <a href="https://steamcommunity.com/id/sakukawaaa/" target="_blank" class="social-link">
             <BrandSteam/>
@@ -20,6 +20,6 @@
 
 <style scoped>
     .social-link {
-        @apply w-7 hover:text-saku-primary-100 transform hover:scale-125 duration-100;
+        @apply w-6 xl:w-7 hover:text-saku-primary-100 duration-100;
     }
 </style>
