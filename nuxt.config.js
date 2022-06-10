@@ -15,6 +15,9 @@ export default {
       { rel:"stylesheet", href:"https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;800&display=swap"}
     ]
   },
+  css:[
+    "@/assets/css/main.css"
+  ],
   components: true,
   buildModules: [
     '@nuxtjs/tailwindcss',

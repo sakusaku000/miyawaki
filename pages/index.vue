@@ -1,3 +1,8 @@
 <template>
-    <h1>lol</h1>
+    <div id="main">
+        <!-- title header -->
+        <HomeTitle/>
+
+        
+    </div>
 </template>
