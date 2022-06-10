@@ -20,3 +20,8 @@ h2 {
 p {
     @apply mb-1
 }
+
+/* anchor link styling */
+a {
+    @apply underline
+}
