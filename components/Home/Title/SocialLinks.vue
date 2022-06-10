@@ -1,19 +1,19 @@
 <template>
     <div class="flex items-center gap-6">
         <a href="https://twitter.com/SakuKawaa" target="_blank" class="social-link">
-            <BrandTwitter/>
+            <IconsBrandTwitter/>
         </a>
         <a href="https://steamcommunity.com/id/sakukawaaa/" target="_blank" class="social-link">
-            <BrandSteam/>
+            <IconsBrandSteam/>
         </a>
         <a href="https://github.com/sakusaku000" target="_blank" class="social-link">
-            <BrandGithub/>
+            <IconsBrandGithub/>
         </a>
         <a href="https://www.youtube.com/channel/UCwf3toXBiRYjZd9hPuzhFLA" target="_blank" class="social-link">
-            <BrandYouTube/>
+            <IconsBrandYouTube/>
         </a>
         <a href="https://www.last.fm/user/sakukawa000" target="_blank" class="social-link">
-            <BrandLastFm/>
+            <IconsBrandLastFm/>
         </a>
     </div>
 </template>
