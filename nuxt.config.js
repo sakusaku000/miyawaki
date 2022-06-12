@@ -18,7 +18,12 @@ export default {
   css:[
     "@/assets/css/main.css"
   ],
-  components: true,
+  components: {
+    dirs: [
+      '~/components',
+      '~/components/base'
+    ]
+  },
   buildModules: [
     '@nuxtjs/tailwindcss',
   ],
