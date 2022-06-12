@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
     h1 {
-        @apply text-2xl md:text-4xl lg:text-6xl mb-6 md:-ml-1
+        @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6 md:-ml-1
     }
     h3 {
         @apply font-light;
