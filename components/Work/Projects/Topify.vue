@@ -4,11 +4,12 @@
             small web app that shows top data from your spotify account. allows for viewing top tracks and artists within a selectable time range.
         </p>
         <p>
-            live site currently private because spotify api requires a whitelist 😑 
+            live site currently broken because spotify api requires a whitelist 😑 
         </p>
         <p class="mb-0">
             built with vue.js and spotify's API. deployed on vercel.
         </p>
-        <WorkProjectLinkOut link="https://github.com/sakusaku000/topify">view on github</WorkProjectLinkOut>
+        <WorkProjectLinkOut link="https://topify.saku.dev/">live site</WorkProjectLinkOut>
+        <WorkProjectLinkOut link="https://github.com/sakusaku000/topify">github repo</WorkProjectLinkOut>
     </WorkProjectCard>
 </template>
