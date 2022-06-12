@@ -1,5 +1,5 @@
 <template>
-    <section id="introduction" class="lg:max-w-2xl mb-4">
+    <section id="introduction" class="lg:max-w-2xl mb-4 text-justify">
         <h2>hi there 👋</h2>
         <p>
             i'm saku, real name harry, and i'm a web dev based in london, england.
