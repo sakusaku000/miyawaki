@@ -12,3 +12,12 @@
         <WorkProjectsTopify/>
     </div>
 </template>
+
+<script>
+export default {
+    name:"KpopPage",
+    head:{
+        title:"work - saku"
+    }
+}
+</script>

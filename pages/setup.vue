@@ -8,3 +8,12 @@
         <SetupSoftware/>
     </div>
 </template>
+
+<script>
+export default {
+    name:"SetupPage",
+    head:{
+        title:"setup - saku"
+    }
+}
+</script>

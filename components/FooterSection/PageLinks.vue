@@ -20,7 +20,7 @@ export default {
         return {
             links:[
                 {
-                    name:"home",
+                    name:"hi 👋",
                     link:"/"
                 },
                 {
