@@ -1,10 +1,9 @@
 <template>
-    <main >
-        <div class="container mx-auto py-10 lg:py-20 px-5 lg:px-10">
+    <div class="flex flex-col h-screen">
+        <main class="container mx-auto px-10 pt-10 lg:pt-20">
             <Nuxt/>
-        </div>
+        </main>
 
-        <!-- footer -->
         <FooterSection/>
-    </main>
+    </div>
 </template>

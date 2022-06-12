@@ -1,5 +1,5 @@
 <template>
-    <section id="skills" class="mb-4">
+    <section id="skills" class="mb-10">
         <h2>i'm proficient in</h2>
         <div class="flex items-center gap-5">
             <IconsTechHtml class="skill-icon" title="HTML5"/>

@@ -1,5 +1,9 @@
 <template>
-    <footer class="flex justify-center">
-        <span class="text-xs text-gray-500">© 2022 saku. made with <a href="https://nuxtjs.org/" target="_blank">nuxt.js</a>.</span>
-    </footer>
+    <div class="mt-auto py-8 px-10 flex flex-col items-end md:flex-row md:justify-between">
+        <!-- navigation -->
+        <FooterSectionPageLinks/>
+
+        <!-- copyright -->
+        <FooterSectionCopyright/>
+    </div>
 </template>
