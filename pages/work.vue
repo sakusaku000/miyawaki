@@ -1,15 +1,18 @@
 <template>
     <div id="work">
         <h1><IconsCodeFile/> work</h1>
+        
+        <!-- topify -->
+        <WorkProjectsTopify/>
+
+        <!-- saku.dev -->
+        <WorkProjectsSakuDev/>
 
         <!-- bannerista -->
         <WorkProjectsBannerista/>
 
         <!-- bannerista dash -->
         <WorkProjectsBanneristaDash/>
-
-        <!-- topify -->
-        <WorkProjectsTopify/>
     </div>
 </template>
 
