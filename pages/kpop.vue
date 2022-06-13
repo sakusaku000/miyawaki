@@ -1,9 +1,11 @@
 <template>
     <div id="kpop">
-        <h3>more like kpoop (i havent finished this page yet)</h3>
+        <h1><IconsCD/> k-pop</h1>
 
-        <p>stream panorama</p>
-        <iframe width="360" height="640" src="https://www.youtube.com/embed/ORKUzpOvqG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- fav groups -->
+        <KpopListFavGroups/>
+        <!-- fav soloists -->
+        <KpopListFavSoloists/>
     </div>
 </template>
 
