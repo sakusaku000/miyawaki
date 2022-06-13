@@ -2,10 +2,10 @@
     <div id="setup">
         <h1><IconsSetupWrench/> setup</h1>
 
-        <!-- hardware -->
-        <SetupHardware/>
-        <!-- software -->
-        <SetupSoftware/>
+        <!-- hardware list -->
+        <SetupHardwareList/>
+        <!-- software list -->
+        <SetupSoftwareToolsList/>
     </div>
 </template>
 
