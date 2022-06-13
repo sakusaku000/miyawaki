@@ -6,7 +6,7 @@
             banner image.
         </p>
         <p class="mb-0">
-            built with node.js, discord.js, express and puppeteer. running on a vultr cloud compute vps.
+            built with node.js, discord.js, mongodb, express and puppeteer. running on a vultr cloud compute vps.
         </p>
     </WorkProjectCard>
 </template>

@@ -6,7 +6,6 @@
         <p class="mb-0">
             built with nuxt.js. deployed on vercel.
         </p>
-        <WorkProjectLinkOut link="https://saku.dev">live site</WorkProjectLinkOut>
         <WorkProjectLinkOut link="https://github.com/sakusaku000/miyawaki">github repo</WorkProjectLinkOut>
     </WorkProjectCard>
 </template>

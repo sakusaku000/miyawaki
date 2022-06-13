@@ -5,7 +5,7 @@
             and controlling various settings.
         </p>
         <p class="mb-0">
-            built with vue.js and deployed on vercel.
+            built with vue.js. deployed on vercel.
         </p>
     </WorkProjectCard>
 </template>
