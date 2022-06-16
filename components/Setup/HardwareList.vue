@@ -1,7 +1,7 @@
 <template>
     <div id="hardware-list">
         <h2><IconsSetupDesktop/> hardware</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-10">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             <!-- motherboard -->
             <SetupToolCard name="msi b450m pro-vdh max" type="motherboard" :icon="require('~/assets/image/setup/motherbord.png')"/>
             <!-- cpu -->

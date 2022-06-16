@@ -1,5 +1,5 @@
 <template>
-    <img class="h-64 rounded-lg shadow hidden md:block" :src="waveGif" v-if="waveGif" alt="wave">
+    <img class="h-64 rounded-lg shadow hidden md:block" :src="waveGif" v-if="waveGif" alt="wave" draggable="false">
 </template>
 
 <script>

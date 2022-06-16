@@ -2,10 +2,12 @@
     <div id="setup">
         <h1><IconsSetupWrench/> setup</h1>
 
-        <!-- hardware list -->
-        <SetupHardwareList/>
-        <!-- software list -->
-        <SetupSoftwareToolsList/>
+        <div class="flex flex-col gap-10">
+            <!-- hardware list -->
+            <SetupHardwareList/>
+            <!-- software list -->
+            <SetupSoftwareToolsList/>
+        </div>
     </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
     <div id="software-list">
         <h2><IconsSetupCog/> software</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-10">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             <!-- os -->
             <SetupToolCard name="windows 11" type="os" :icon="require('~/assets/image/setup/windows11.png')"/>
             <!-- code editor -->
