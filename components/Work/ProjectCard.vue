@@ -4,7 +4,13 @@
             <img class="w-full rounded-x-2xl rounded-t-2xl bg-shadow" :src="icon" :alt="`${name} cover image`" draggable="false">
         </div>
         <div id="card-content" class="bg-saku-dark-100 p-8 md:p-8 rounded-2xl -mx-6 md:mx-0">
-            <h3>{{years}}</h3>
+            <div class="flex items-center">
+                <h3>{{years}}</h3>
+                <div class="ml-auto flex items-center gap-7 lg:gap-4">
+                    <a :href="viewLink" target="_blank" v-if="viewLink"><WorkProjectViewLink/></a>
+                    <a :href="githubLink" target="_blank" v-if="githubLink"><WorkProjectGithubLink/></a>
+                </div>
+            </div>
             <h1><WorkProjectLanguageIcon :language="language"/>{{name}}</h1>
             <img class="w-full rounded-lg block lg:hidden mb-4" :src="icon" :alt="`${name} cover image`" draggable="false">
             <div class="lg:max-w-2xl">
@@ -22,7 +28,9 @@ export default {
         icon:String,
         years:String,
         language:String,
-        bgColour:String
+        bgColour:String,
+        viewLink:String,
+        githubLink:String
     }
 }
 </script>

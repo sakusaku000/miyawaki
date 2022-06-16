@@ -2,18 +2,15 @@
     <div id="work">
         <h1><IconsCodeFile/> work</h1>
         
-        <div class="flex flex-col gap-20">
+        <div class="flex flex-col gap-10 lg:gap-14">
             <!-- topify -->
             <WorkProjectsTopify/>
-
-            <!-- saku.dev -->
-            <WorkProjectsSakuDev/>
 
             <!-- bannerista -->
             <WorkProjectsBannerista/>
 
-            <!-- bannerista dash -->
-            <WorkProjectsBanneristaDash/>
+            <!-- saku.dev -->
+            <WorkProjectsSakuDev/>
         </div>
     </div>
 </template>
