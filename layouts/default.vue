@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col scr-height">
-        <main class="container mx-auto px-10 pt-10 lg:pt-20">
+        <main class="container mx-auto px-10 pt-10 2xl:pt-20">
             <Nuxt/>
         </main>
 
